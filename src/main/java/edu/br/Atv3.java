@@ -9,9 +9,9 @@ public class Atv3 {
             FileReader fileReader = new FileReader("meuarquivo.txt");
             BufferedReader bufferedReader = new BufferedReader(fileReader);
 
-            String texto;
-            while ((texto = bufferedReader.readLine()) != null) {
-                System.out.println(texto);
+            String text;
+            while ((text = bufferedReader.readLine()) != null) {
+                System.out.println(text);
             }
 
             bufferedReader.close();
